@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "ReactiveCocoa"
-  s.version      = "3.0.0-alpha.3"
+  s.version      = "3.0-alpha.3"
   s.summary      = "A framework for composing and transforming streams of values."
   s.description  = "ReactiveCocoa (RAC) is an Objective-C framework for Functional Reactive Programming. It provides APIs for composing and transforming streams of values."
   s.homepage     = "https://github.com/ReactiveCocoa/ReactiveCocoa/"
