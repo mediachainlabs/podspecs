@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   s.subspec "Core" do |ss|
     ss.dependency "ReactiveCocoa/no-arc"
     ss.source_files  = "ReactiveCocoa/**/*.{d,h,m,swift}"
-    ss.exclude_files = "**/ReactiveCocoa.h", "ReactiveCocoa/**/*{RACObjCRuntime,AppKit,NSControl,NSText,NSTable,UIActionSheet,UIAlertView,UIBarButtonItem,UIButton,UICollectionReusableView,UIControl,UIDatePicker,UIGestureRecognizer,UIImagePicker,UIRefreshControl,UISegmentedControl,UISlider,UIStepper,UISwitch,UITableViewCell,UITableViewHeaderFooterView,UIText}*"
+    ss.exclude_files = "**/ReactiveCocoa.h", "ReactiveCocoa/**/*{RACObjCRuntime,AppKit,NSControl,NSText,NSTable,UIActionSheet,UIAlertView,UIBarButtonItem,UIButton,UICollectionReusableView,UIControl,UIDatePicker,UIGestureRecognizer,UIImagePicker,UIRefreshControl,UISegmentedControl,UISlider,UIStepper,UISwitch,UITableViewCell,UITableViewHeaderFooterView,UIText,MKAnnotationView}*"
     ss.header_dir = "ReactiveCocoa"
     ss.private_header_files = "**/*Private.h", "**/*EXTRuntimeExtensions.h", "**/RACEmpty*.h"
     ss.framework  = "Foundation"
