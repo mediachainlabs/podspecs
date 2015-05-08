@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
   s.subspec "UI" do |ss|
     ss.dependency "ReactiveCocoa/Core"
     ss.framework = 'Foundation'
-    ss.ios.source_files = "**/ReactiveCocoa.h", "ReactiveCocoa/**/*{UIActionSheet,UIAlertView,UIBarButtonItem,UIButton,UICollectionReusableView,UIControl,UIDatePicker,UIGestureRecognizer,UIImagePicker,UIRefreshControl,UISegmentedControl,UISlider,UIStepper,UISwitch,UITableViewCell,UITableViewHeaderFooterView,UIText}*"
+    ss.ios.source_files = "**/ReactiveCocoa.h", "ReactiveCocoa/**/*{UIActionSheet,UIAlertView,UIBarButtonItem,UIButton,UICollectionReusableView,UIControl,UIDatePicker,UIGestureRecognizer,UIImagePicker,UIRefreshControl,UISegmentedControl,UISlider,UIStepper,UISwitch,UITableViewCell,UITableViewHeaderFooterView,UIText,MKAnnotationView}*"
     ss.osx.source_files = "**/ReactiveCocoa.h", "ReactiveCocoa/**/*{AppKit,NSControl,NSText,NSTable}*"
     ss.ios.framework = 'UIKit'
     ss.osx.framework = 'AppKit'
